@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Registration Form</title>
+        <!--Coding Dojo 3/7/23 Sarah Flynn-->
+    </head>
+    <body style="font-family: Arial, Helvetica, sans-serif;">
+        <h1>
+            Registration Form
+        </h1>
+        <form action="/process" method="post">
+            <div id="text inputs">
+                <p>
+                    First Name*: &nbsp <input type="text" />
+                </p>
+                <p>
+                    Last Name*: &nbsp <input type="text" />
+                </p>
+                <p>
+                    Email Address*: &nbsp <input type="text" />
+                </p>
+                <p>
+                    Password*: &nbsp <input type="password" />
+                </p>
+                <p>
+                    Confirm Password*: &nbsp <input type="password" />
+                </p>
+            </div>
+            <div id="misc inputs">
+                <p>
+                    Birthday*: &nbsp <input type="password" />
+                </p>
+                <p>
+                    Gender Identity:
+                    <br>
+                    <br>
+                    <input type="radio"> Male &nbsp
+                    <input type="radio"> Female &nbsp
+                    <input type="radio"> Non-binary &nbsp
+                    <input type="radio"> I prefer not to answer
+                <p>
+                    A short description about myself:
+                    <br>
+                    <textarea style="height: 70px; width: 400px;" placeholder="Write a few sentences describing yourself here">
+                    </textarea>
+                </p>
+                <p>
+                    Favorite Language:
+                    <br>
+                    <select name="languages">
+                        <option>HTML</option>
+                        <option>CSS</option>
+                        <option>JavaScript</option>
+                        <option>Python</option>
+                        <option>C++</option>
+                    </select>
+                </p>
+            </div>
+            <div id="final inputs">
+                <p>
+                    <input type="checkbox" name="emails" id="emails" checked >
+                    <label for="emails">
+                        Yes, I would like to recieve offers via email.
+                    </label>
+                </p>
+                <input type="submit" value="Create Account" style="font-size: 18px;">
+            </div>
+            <p style="color: gray;">
+                * Indicates a required field.
+            </p>
+        </form>
+    </body>
+</html>

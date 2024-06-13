@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DojoWeather</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Secular%20One">
+    
+    </head>
+    <body>
+        <div class="container">
+            <!-- alert -->
+            <div class="alert">
+                <div class="c">
+                    <img src="assets/cookie.png">
+                    <div class="r">
+                        <h2 class="tboxL">Stop! Cookie Time</h2>
+                        <p id="inline">We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our traffic. 
+                            <a href="index.html">Read more...</a>
+                        </p>
+                    </div>
+                    <input type="button" value="I Accept" onclick="acceptCookie()">
+                </div>
+            </div>
+            <!-- alert end -->
+            <div class="contain">
+                <div class="nav">
+                    <h1 class="tboxL">DojoWeather</h1>
+                    <div class="tboxC">
+                        <a href="index.html" onclick="alert('Location has been changed.')">Burbank</a>
+                        <a href="index.html" onclick="alert('Location has been changed.')">Chicago</a>
+                        <a href="index.html"  onclick="alert('Location has been changed.')">Dallas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contain r">
+                <div class="block tboxC">
+                    <div class="tboxL">
+                        <h2>San Jose</h2>
+                    </div>
+                    <div class="tboxR">
+                            <p>show temperature in</p>
+                            <select name="temperature" onchange="temp()" onclick="alert('Loading weather report...')">
+                                <option value="far">F°</option>
+                                <option value="cel">C°</option>
+                            </select>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="c">
+                    <!-- today -->
+                    <div class="c">
+                        <div class="fill r">
+                            <h3>Today</h3>
+                            <div class="round">
+                                <img src="assets/some_rain.png" alt="rain" height="100">
+                            </div>
+                            <p>some rain</p>
+                            <div class="tboxC c">
+                                <span class="faren tboxL">
+                                    0°
+                                </span>
+                                <span class="celc tboxR">
+                                    0°
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- tomorrow -->
+                    <div class="c">
+                        <div class="fill r">
+                            <h3>Tomorrow</h3>
+                            <div class="round">
+                                <img src="assets/some_sun.png" alt="rain" height="100">
+                            </div>
+                            <p>some sun</p>
+                            <div class="tboxC c">
+                                <span class="faren tboxL">
+                                    0°
+                                </span>
+                                <span class="celc tboxR">
+                                    0°
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- friday -->
+                    <div class="c">
+                        <div class="fill r">
+                            <h3>Friday</h3>
+                            <div class="round">
+                                <img src="assets/some_clouds.png" alt="rain" height="100">
+                            </div>
+                            <p>some clouds</p>
+                            <div class="tboxC c">
+                                <span class="faren tboxL">
+                                    0°
+                                </span>
+                                <span class="celc tboxR">
+                                    0°
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- saturday -->
+                    <div class="c">
+                        <div class="fill r">
+                            <h3>Saturday</h3>
+                            <div class="round">
+                                <img src="assets/some_sun.png" alt="rain" height="100">
+                            </div>
+                            <p>some sun</p>
+                            <div class="tboxC c">
+                                <span class="faren tboxL">
+                                    0°
+                                </span>
+                                <span class="celc tboxR">
+                                    0°
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of saturday -->
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

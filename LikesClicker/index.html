@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Likes</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Mono">
+    </head>
+    <body>
+        <!-- everything goes in the grid! -->
+        <div class="grid">
+            <div class="nav">
+                <h1>Network</h1>
+            </div>
+            <h1 id="feed"> Your Feed</h1>
+            <div class="box" id="row">
+                <div class="avatar">
+                    <img src="user-circle.png" id="avatar" alt="user circle" height="80px">
+                    <br>
+                    <a href="index.html">Add an avatar</a>
+                    <h2>James Doe</h2>
+                </div>
+                <!-- <div class="spacer"></div> -->
+                <div id="col">
+                    <!-- niel -->
+                    <div class="userbox">
+                        <div class="box align">
+                            <h2>Niel M</h2>
+                            <p id="niel">0 Like(s)</p>
+                            <input type="button" value="Like" onclick="counterNiel(niel)" onmouseenter="hover(this)" onmouseleave="revert(this)">
+                        </div>
+                        <p>I just set up this new Discord bot. Let me know what you all think. <a href="index.html">link</a></p>
+                    </div>
+                    <!-- nicole -->
+                    <div class="userbox">
+                        <div class="box align">
+                            <h2>Nichole K</h2>
+                            <p id="nichole">0 Like(s)</p>
+                            <input type="button" value="Like" onclick="counterNic(nichole)" onmouseenter="hover(this)" onmouseleave="revert(this)">
+                        </div>
+                        <p>Just finished my
+                        <a href="index.html">next comic,</a>
+                        check it out.</p>
+                        </div>
+                    <!-- john -->
+                    <div class="userbox">
+                        <div class="box align">
+                            <h2>Jim R</h2>
+                            <p id="jim">0 Like(s)</p>
+                            <input type="button" value="Like" onclick="counterJim(jim)" onmouseenter="hover(this)" onmouseleave="revert(this)">
+                        </div>
+                            <p>Can't stop listening to the
+                            <a href="index.html">new album.</a>
+                            Who else is liking it?</p>
+                    </div>
+                    <!-- end -->
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    </html>

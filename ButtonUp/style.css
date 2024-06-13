@@ -1,0 +1,46 @@
+* {
+    font-family: helvetica;
+}
+
+.button-search {
+    border: 2px solid rgb(76, 177, 181);
+    border-radius: 20px 20px;
+    max-width: fit-content;
+    background-color: white;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 50px 0px 50px;
+    line-height: 0px;
+    font-weight: bold;
+    color: rgb(76, 177, 181);
+
+}
+
+.button-add {
+    border: 0px solid;
+    border-radius: 50%;
+    background-color: rgb(76, 177, 181);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    width: fit-content;
+    line-height: 16px;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.button-create {
+    border: 4px solid black;
+    max-width: fit-content;
+    background-color: rgb(67, 151, 255);
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 25px 15px 25px;
+    vertical-align: middle;
+    width: fit-content;
+    line-height: 10px;
+    color: white;
+    box-shadow: 5px 5px black;
+
+}

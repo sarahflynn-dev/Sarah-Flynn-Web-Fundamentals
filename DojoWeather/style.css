@@ -1,0 +1,119 @@
+.container {
+    /* width: 80%; */
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin: 0px auto;
+    flex-direction: column;
+}
+.container * {
+    font-family: secular one;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    vertical-align: middle;
+    align-items: center;
+}
+#inline {
+    display: inline-block;
+}
+.alert{
+    justify-content: space-around;
+    align-self: center;
+    position: fixed;
+    bottom: 0px;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    border: 3px black solid;
+}
+.alert h2, .alert p {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+.alert input {
+    background-color:rgb(71, 182, 255);
+    border: 3px black solid;
+    box-shadow: 3px 3px black;
+}
+.alert a {
+    display: inline;
+}
+
+.nav, .nav a {
+    background-color: rgb(71, 182, 255);
+    color: white;
+    width: 100%
+}
+.tbox, .tboxC, .tboxL, .tboxR {
+    margin: 0px auto;
+    width: 100%;
+    flex: 1;
+}
+.tboxR {
+    justify-content: flex-end;
+}
+.tboxC {
+    /* width: 100%; */
+    justify-content: space-around;
+}
+.tboxL {
+    text-align: left;
+    justify-content: flex-start;
+}
+h1, h1.tboxL {
+    font-size: 2.2em;
+    font-weight: bolder;
+    text-align: left;
+}
+h2, .tboxC h2, .c .fill.r h2 {
+    font-size: 35px;
+}
+h3 {
+    font-size: 22px;
+}
+.contain {
+    width: 100%;
+    flex-direction: row;
+    padding: 0px 20px;
+}
+.r {
+    flex-direction: column;
+    margin: 0px auto;
+    justify-content: space-around;
+}
+.c {
+    flex-direction: row;
+    margin: 0px auto;
+    justify-content: space-around;
+}
+hr {
+    width: 100%;
+    background-color: black;
+    height: 0px;
+}
+.block {
+    display: flex;
+}
+.fill {
+    background-color: lightgray;
+    padding: 20px;
+}
+.round {
+    border-radius: 50%;
+    border-color: white;
+    background-color: white;
+    overflow: hidden;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+}
+.faren, .celc {
+    color:brown;
+    font-size: 30px;
+}
+.celc {
+    color:rgb(58, 58, 180);
+}

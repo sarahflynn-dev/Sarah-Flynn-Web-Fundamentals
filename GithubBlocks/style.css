@@ -1,0 +1,43 @@
+* {
+    font-family: helvetica;
+    line-height: 15px;
+    color: #F1FAEE;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 3em;
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+body {
+    background-color: #1D3557;
+    text-align: center;
+}
+
+img.octocat {
+    height: 200px;
+}
+
+.frame {
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: middle;
+    /* auto will automatically adjust L/R */
+    margin: 20px auto;
+    padding: 20px;
+    width: 60%;
+}
+
+#first {
+    background-color: #457B9D;
+}
+
+#second {
+    background-color: #E63946;
+}
+
+#third {
+    background-color: #61a8d4;
+}

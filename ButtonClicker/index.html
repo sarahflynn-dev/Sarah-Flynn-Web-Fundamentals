@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+<!-- navigator -->
+            <div class="nav">
+                <h1>Dojonary</h1>
+                <input type="search" id="search" placeholder="Search">
+                <input type="button" id="log" value="Login" onclick="log(this)">
+            </div>
+        </div>
+        <div class="container">   
+            <div class="container" id="col">
+                <!-- blurbs -->
+                <div class="blurb">
+                    <div class="word">
+                        <h1>ninja</h1>
+                        <h2>noun</h2>
+                        <h3>Plural: ninjas</h3>
+                        <input type="button" value="Like" class="press" onmouseover="noBox(this)" onmouseout="revert(this)" onclick="pressed(this)">
+                    </div>
+                    <div class="def">
+                        A practitioner skilled in the <a href="index.html">Japanese</a> art of <a href="index.html">ninjitsu</a>.
+                    </div>
+                </div>
+                <div class="blurb">
+                    <div class="word">
+                        <h1>ninja</h1>
+                        <h2>noun</h2>
+                        <h3>Plural: ninjas</h3>
+                        <input type="button" value="Like" class="press" onmouseover="noBox(this)" onmouseout="revert(this)" onclick="pressed2(this)">
+                    </div>
+                    <div class="def">
+                        A <a href="index.html">programmer</a> who breaks down problems with <a href="index.html">zen</a>-like focus.
+                    </div>
+                </div>
+            </div>
+        
+            <!-- <div class="spacer"></div> -->
+
+            <div class="blurb" id="block">
+                <p>Dojonary is defined by <b>YOU!</b></p>
+                <div class="spacer"></div>
+                <input type="button" class="press" value="Add Definition" onclick="remove(this)" onmouseover="noBox(this)" onmouseout="revert(this)">
+            </div>
+        </div>
+    </body>
+    </html>
